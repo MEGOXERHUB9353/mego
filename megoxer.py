@@ -18,7 +18,7 @@ users_collection = db["users"]  # Collection for users
 logs_collection = db["logs"]  # Collection for logs
 
 # Admin user IDs
-admin_id = {"746910296"}
+admin_id = {"7469108296"}
 
 # Attack cooldown per user
 COOLDOWN_PERIOD = 300
